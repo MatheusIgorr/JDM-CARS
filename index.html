@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM CARS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script> <!-- Adicionado defer para garantir que o DOM esteja carregado -->
+</head>
+<body>
+    <header>
+        <img src="img/logo jdm.png" alt="logo">
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>CARS</li>
+                <li>CONTACT ME</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container" id="container">
+
+        <div class="list">
+
+            <div class="item active">
+                <div class="car-img">
+                    <img src="/img/Mazda RX-7.png" alt="Mazda RX-7">
+                </div>
+                <div class="content">
+                    <p class="car-information">JDM CAR</p>
+                    <h2>Mazda RX-7</h2>
+                    <p class="description">
+                        O Mazda RX-7 é um carro esportivo icônico, produzido em várias gerações entre 1978 e 2002. Conhecido por seu motor rotativo Wankel, o RX-7 oferece uma experiência de condução única e empolgante.
+                    </p>
+                    <button class="information">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="/img/GT-R34.png" alt="Nissan GT-R R34">
+                </div>
+                <div class="content">
+                    <p class="car-information">JDM CAR</p>
+                    <h2>Nissan GT-R R34</h2>
+                    <p class="description">
+                        O Nissan GT-R R34, produzido entre 1999 e 2002, é um dos carros esportivos mais emblemáticos da Nissan e um verdadeiro ícone na cultura automotiva, especialmente entre os fãs de tuning e corridas.
+                    </p>
+                    <button class="information">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="/img/SUPRA.png" alt="Toyota Supra A80">
+                </div>
+                <div class="content">
+                    <p class="car-information">JDM CAR</p>
+                    <h2>Toyota Supra A80</h2>
+                    <p class="description">
+                        O Toyota Supra A80, produzido entre 1993 e 2002, é um ícone entre os carros esportivos. Conhecido por seu design aerodinâmico e agressivo, o A80 apresenta linhas elegantes e uma dianteira marcante.
+                    </p>
+                    <button class="information">Saiba Mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="setas">
+            <button id="prev"><img src="img/arrow.png" alt="seta left"></button>
+            <button id="next"><img src="img/arrow.png" alt="seta right"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">
+                01
+                <ul>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
